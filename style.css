@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "cuy-font";
+  src: url(BebasNeue-Regular.ttf) format("truetype");
+}
+* {
+  font-family: cuy-font;
+}
+
+nav img {
+  border-radius: 0 50% 0 50%;
+  transition: 0.5s;
+}
+
+nav img:hover {
+  transform: rotate(-15deg) scale(1.1);
+}
