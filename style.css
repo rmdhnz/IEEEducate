@@ -5,7 +5,9 @@
 * {
   font-family: cuy-font;
 }
-
+body {
+  position: relative;
+}
 nav img {
   border-radius: 0 50% 0 50%;
   transition: 0.5s;
